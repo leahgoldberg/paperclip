@@ -7,6 +7,7 @@ require 'paperclip/validators/attachment_presence_validator'
 require 'paperclip/validators/attachment_size_validator'
 require 'paperclip/validators/media_type_spoof_detection_validator'
 require 'paperclip/validators/attachment_file_type_ignorance_validator'
+require 'paperclip/validators/attachment_image_dimension_validator'
 
 module Paperclip
   module Validators
